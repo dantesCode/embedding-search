@@ -1,4 +1,3 @@
-````markdown
 # Embedding Search
 
 A modern semantic search application built with Bun.js, TypeScript, and OpenAI embeddings. This project provides both a RESTful API and CLI tools for generating embeddings and performing semantic similarity searches.
