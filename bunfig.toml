@@ -1,0 +1,16 @@
+name = "embeddings-project"
+version = "0.1.0"
+description = "A project to test embeddings using Bun.js, TypeScript, Supabase, OpenAI."
+entry = "src/app.ts"
+
+[test]
+timeout = 10000
+environment = [".env.test"]
+
+[dependencies]
+supabase = "latest"
+openai = "latest"
+
+[build]
+target = "node20"
+output = "dist/embeddings-project.js"
